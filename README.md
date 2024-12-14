@@ -46,7 +46,7 @@ O sistema permite o cadastro e a gestão de:
 3. **Pedido**
 * Representa uma compra feita por um cliente.
 * **Atributos principais**:
-  * **status_Pedido** (ENUM: entregue, em andamento, cancelado, etc.)
+  * ``status_Pedido`` (ENUM: entregue, em andamento, cancelado, etc.)
   * ``data_Pedido``
   * ``endereco_entrega_Pedido``
   * ``codigo_rastreamento``
@@ -62,8 +62,8 @@ O sistema permite o cadastro e a gestão de:
   * ``quantidade_Item_Pedido``
   * ``preco_unitario_Item_Pedido``
 * **Relacionamentos**:
-  * **N:1** com **Pedido**.
-  * **N:1** com **Produto**.
+  * **N:1** com ``Pedido``.
+  * **N:1** com ``Produto``.
 ----
 
 5. **Produto**
