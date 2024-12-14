@@ -13,38 +13,32 @@ O sistema permite o cadastro e a gestão de:
 * Formas de pagamento associadas às contas.
 ## Estrutura do Banco de Dados
 ### Entidades Principais
-1. Conta
-
+1. **Conta**
 * Contém os dados principais da conta do cliente.
 * A conta pode ser associada a uma Pessoa Física ou Pessoa Jurídica (Generalização/Especialização).
 * Uma conta pode ter múltiplas formas de pagamento cadastradas.
-2. Pedido
-
+  
+2. **Pedido**
 * Representa a compra realizada por uma conta.
 * Contém informações como status, endereço de entrega e código de rastreamento.
 * Um pedido pode conter um ou mais produtos.
 
-3. Produto
-
+3. **Produto**
 * Produtos disponíveis na plataforma.
 * Associados a uma categoria e a fornecedores.
 * Vendidos por vendedores terceiros.
 
-4. Fornecedor
-
+4. **Fornecedor**
 * Cada fornecedor possui um endereço e fornece um ou mais produtos.
 
-5. Vendedor
-
+5. **Vendedor**
 * Representa vendedores terceiros que disponibilizam produtos na plataforma.
 * Cada vendedor possui um endereço associado.
 
-6. Forma de Pagamento
-
+6. **Forma de Pagamento**
 * Diferentes formas de pagamento cadastradas para uma conta.
 
-7. Endereço
-
+7. **Endereço**
 * Entidade genérica para armazenar os endereços associados a contas, pedidos, fornecedores e vendedores.
 
 ## Relacionamentos
