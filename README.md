@@ -80,8 +80,11 @@ Relacionamento **1:1**: Cada vendedor possui um endereço.
 ### Pedido e Endereco
 Relacionamento **1:1**: Cada pedido possui um endereço de entrega.
 
-Diagrama do Banco de Dados
+## Diagrama do Banco de Dados
 O diagrama abaixo apresenta o modelo atualizado, com as entidades, relacionamentos e suas chaves primárias/estrangeiras:
+<div align = "center">
+  <img src = "https://github.com/WenFra005/Modelo-conceitual-de-ecommerce-MySQL/blob/main/modelo-conceitual/Modelo%20Conceitual.png" alt = "modelo conceitual" width = "700"/>
+</div>
 
 (Substitua pelo caminho correto da imagem no repositório)
 
